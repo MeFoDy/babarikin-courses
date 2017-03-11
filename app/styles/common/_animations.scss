@@ -1,0 +1,9 @@
+@keyframes mouse-anim {
+    0%,
+    100% {
+        transform: translateY(-2px);
+    }
+    50% {
+        transform: translateY(2px);
+    }
+}

@@ -1,0 +1,40 @@
+@import "common/animations";
+@import "common/colors";
+@import "common/fonts";
+@import "common/icons";
+@import "common/mixins";
+@import "common/sizes";
+
+@import "blocks/nd-button";
+@import "blocks/nd-full-page-block";
+@import "blocks/video-background";
+
+@import "blocks/nd-banner";
+@import "blocks/nd-header";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', 'Open Sans', 'Arial', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: $color--body-bg;
+    color: $color--text;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-padding {
+    padding: 0;
+}

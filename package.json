@@ -1,0 +1,31 @@
+{
+  "name": "babarikin-photoschool",
+  "version": "0.0.0",
+  "description": "Photo-school Courses Page (http://courses.blenda.by)",
+  "main": "app/index.html",
+  "private": true,
+  "dependencies": {
+    "izimodal": "^1.4.1-d",
+    "jquery": "^3.1.1",
+    "normalize.css": "^4.2.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "es6-promise": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeFoDy/babarikin-courses"
+  },
+  "author": "Nikita Dubko <https://github.com/MeFoDy/>"
+}
